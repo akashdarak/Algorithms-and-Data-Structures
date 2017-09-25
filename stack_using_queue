@@ -1,0 +1,17 @@
+Queue<Integer> q1 = new LinkedList<>();
+Queue<Integer> q2 = new LinkedList<>();
+int top;
+
+public void push(int x) {	// Push element x onto stack.
+    q1.add(x);
+    top = x;
+}
+
+public void pop() {
+    while (q1.size() > 1) {
+        top = q1.remove();
+        q2.add(top);
+    }
+    return q1.remove(); 
+}
+
