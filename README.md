@@ -1,4 +1,4 @@
-# Algorithms-and-Data-Structures
+# Data Structures and Algorithms
 Java codes for different types of data structures and basic algorithms.
 
 * Operations on Linked List such as: deleting a node, removing duplicates and adding elements.
